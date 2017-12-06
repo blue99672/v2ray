@@ -21,6 +21,7 @@ ADD entrypoint.sh /entrypoint.sh
 
 RUN chmod +x /entrypoint.sh 
 
-ENTRYPOINT  /entrypoint.sh 
+#ENTRYPOINT  /entrypoint.sh 
 
-EXPOSE 8080
+#EXPOSE 8080
+CMD /entrypoint.sh
